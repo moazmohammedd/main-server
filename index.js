@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
   res.send('Server is working');
 });
 
-app.listen(2000, () => {
-  console.log('Server is running on port 2000');
+app.listen(5001, () => {
+  console.log('Server is running on port 5001');
 });
